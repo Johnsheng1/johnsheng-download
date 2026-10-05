@@ -36,7 +36,7 @@ set -eu
 # -------------------------------- 默认配置 -----------------------------------
 INSTALL_DIR="${ET_INSTALL_DIR:-/opt/easytier}"
 SERVICE_NAME="et"
-ET_ARGS="${ET_ARGS--config-server udp://easytier.968111.xyz:2202/admin}"
+ET_ARGS="${ET_ARGS--config-server udp://easytier.968111.xyz:22020/admin}"
 REPO="EasyTier/EasyTier"
 LOG_FILE="/var/log/et.log"
 ARCH="${ET_ARCH:-}"
