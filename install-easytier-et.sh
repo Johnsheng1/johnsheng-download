@@ -19,7 +19,7 @@
 #
 #   --dir DIR      安装目录，默认 /opt/easytier          [环境变量 ET_INSTALL_DIR]
 #   --args "..."   easytier-core 启动参数，
-#                  默认: -w tcp://easytier.968111.xyz:22020/admin  [环境变量 ET_ARGS]
+#                  默认: -w tcp://23.94.244.106:22020/admin  [环境变量 ET_ARGS]
 #   --version v   指定版本，默认取仓库 latest            [环境变量 ET_VERSION]
 #   --arch NAME   强制架构，默认按 uname -m 自动映射      [环境变量 ET_ARCH]
 #   --no-service  只装二进制，不注册服务（容器/无 init 场景）
